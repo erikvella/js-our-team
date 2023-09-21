@@ -47,7 +47,7 @@ for(let member of arrTeam){
 // 2
   console.log(arrTeam);
 // 3
-  ul.innerHTML += `<li>${member.nome} , ${member.ruolo} , ${member.foto}</li>`
+  ul.innerHTML += `<li>nome: ${member.nome} ,ruolo: ${member.ruolo} ,<img src="img/${member.foto}"> </li>`
 }
 
 
