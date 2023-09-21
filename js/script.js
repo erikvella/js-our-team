@@ -44,12 +44,12 @@ const ul = document.querySelector('ul');
 
 
 for(let member of arrTeam){
-  // 2
+// 2
   console.log(arrTeam);
-
+// 3
   ul.innerHTML += `<li>${member.nome} , ${member.ruolo} , ${member.foto}</li>`
 }
 
-// 3
+
 
 
