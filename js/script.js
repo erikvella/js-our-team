@@ -49,7 +49,7 @@ for(let member of arrTeam){
 // 3
   // ul.innerHTML += `<li>nome: ${member.nome} ,ruolo: ${member.ruolo} ,<img src="img/${member.foto}"> </li>`
 
-row.innerHTML += ` <div class="col-4 d-flex flex-column">
+row.innerHTML += ` <div class="col-4 d-flex flex-column my-5 ">
 <div class="img">
   <img src="img/${member.foto}" alt="">
 </div>
