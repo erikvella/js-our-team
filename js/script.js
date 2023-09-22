@@ -40,14 +40,24 @@ const arrTeam = [
 ]
 
 
-const ul = document.querySelector('ul');
+const row = document.querySelector('.row');
 
 
 for(let member of arrTeam){
 // 2
   console.log(arrTeam);
 // 3
-  ul.innerHTML += `<li>nome: ${member.nome} ,ruolo: ${member.ruolo} ,<img src="img/${member.foto}"> </li>`
+  // ul.innerHTML += `<li>nome: ${member.nome} ,ruolo: ${member.ruolo} ,<img src="img/${member.foto}"> </li>`
+
+row.innerHTML += ` <div class="col-4 d-flex flex-column">
+<div class="img">
+  <img src="img/${member.foto}" alt="">
+</div>
+ <h3>${member.nome}</h3>
+ <div class="role">
+  ${member.ruolo}
+ </div>
+</div>`
 }
 
 
